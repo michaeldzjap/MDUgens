@@ -23,7 +23,7 @@ set(MD_AUDIO_SC_SOURCES ${MD_AUDIO_SC_SOURCES}
     MDAudio/src/SCLowshelfSecondOrder.cpp
     # MDAudio/src/SCPhasor.cpp
     MDAudio/src/SCPitchShifter.cpp
-    # MDAudio/src/SCReverb.cpp
+    MDAudio/src/SCReverb.cpp
     MDAudio/src/SCReverseDelay.cpp
     # MDAudio/src/SCSineOscillator.cpp
     # MDAudio/src/SCSineShaper.cpp

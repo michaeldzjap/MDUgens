@@ -20,7 +20,7 @@
 #include "SCLowshelfSecondOrder.hpp"
 // #include "SCPhasor.hpp"
 #include "SCPitchShifter.hpp"
-// #include "SCReverb.hpp"
+#include "SCReverb.hpp"
 #include "SCReverseDelay.hpp"
 // #include "SCSineOscillator.hpp"
 // #include "SCSineShaper.hpp"
@@ -52,7 +52,7 @@ using md_ugens::LowshelfFirstOrder;
 using md_ugens::LowshelfSecondOrder;
 // using md_ugens::Phasor;
 using md_ugens::PitchShifter;
-// using md_ugens::Reverb;
+using md_ugens::Reverb;
 using md_ugens::ReverseDelay;
 // using md_ugens::SineOscillator;
 // using md_ugens::SineShaper;
@@ -87,7 +87,7 @@ PluginLoad(MDAudio) {
     registerUnit<LowshelfSecondOrder>(ft, "MDLowshelfSecondOrder");
     // registerUnit<Phasor>(ft, "MD_Phasor");
     registerUnit<PitchShifter>(ft, "MDPitchShifter");
-    // registerUnit<Reverb>(ft, "MD_Reverb");
+    registerUnit<Reverb>(ft, "MDReverb");
     registerUnit<ReverseDelay>(ft, "MDReverseDelay");
     // registerUnit<SineOscillator>(ft, "MD_SineOscillator");
     // registerUnit<SineShaper>(ft, "MD_SineShaper");
